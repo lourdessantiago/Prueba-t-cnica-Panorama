@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+}
+.contenedor{
+    
+    background-color: #F5F2F2;
+    height: 50rem;
+    width: 100%;
+    display: flex;
+}
+
+.barra-busqueda{
+    width: 60%;
+    height: 4rem;
+    background-color: #A8292E;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.busqueda{
+    width: 35%;
+    height: 2rem;
+    border-color: transparent;
+    margin-left: 1rem;
+    
+}
+.btn-buscar{
+    border-color: transparent;
+    width: 2rem;
+    height: 2rem;
+
+}
