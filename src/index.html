@@ -20,26 +20,24 @@
   <body>
     <header>
      <div class="encabezado">
-<h1>Logotipo</h1>
      </div>
      <section class="barra-busqueda">
-        <input type="text" class="busqueda" placeholder="Buscar" />
+        <input type="text" class="busqueda" placeholder="Buscar" id="buscador" />
         <button type="button" class="btn-buscar"><i class="bi bi-search"></i></button>    
       </section>
     </header>
-    
-    <section class="contenedor">
-      <section class="productos">
-      </section>
-      <section class="detalle-producto">
+
+    <section class="contenedor" >
+      <section class="productos" id="unProducto">
+        <div id="contenedorProductos" class="contenedorProductos"></div>
+        </section>
+      <section class="detalle-producto" id="detalles">
         <section class="img-producto">
             <div class="img-detalle">
 
             </div>
-            <h3 class="detalles">TÍTULO;</h3>
-            <h3 class="detalles">SKU:</h3>
-            <h3 class="detalles">DESCRIPCIÓN:</h3>
-            <h3 class="detalles">PRECIO:</h3>
+            <h3 class="detalles">Da click en un producto para ver los detalles </h3>
+           
         </section>
 
       </section>
@@ -48,5 +46,5 @@
     </section>
 
   </body>
-  <script src="main.js"></script>
+  <script src="main.js" ></script>
 </html>
